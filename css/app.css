@@ -1,0 +1,803 @@
+/***************************CONTACTBAR******************************/
+
+#maillogo{
+    height: 38px;
+    width: 38px;
+    background-color: white;
+    background-repeat: no-repeat;
+}
+
+#contactbar {
+    background-color: white;
+}
+#contactbar li{
+    padding-right: 20px;
+}
+.icon{
+    color: white;
+    width: 30px;
+    height: 30px;
+}
+#fblogo{
+    height: 38px;
+    width: 38px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-image: url("../images/fb_small_logo.png");
+}
+#telefonologo{
+    background-image: url("../images/telefono_small_logo.png");
+    background-repeat: no-repeat;
+    background-color: white;
+    height: 38px;
+    width: 38px;
+    padding-right: 0;
+}
+.top-bar-right{
+    padding-right:  150px;
+}
+#numero{
+    padding-left: 0;
+    background-color: white;
+}
+#contactbar #numberlogo{
+    padding-right: 0;
+}
+#social-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#social-container .row.align-right #telnumber{
+    width: 25px;
+    padding-right: 0;
+
+}
+.row{
+    margin-right: 10px;
+}
+a .fi-social-facebook{
+    color: blue;
+    width: 100px;
+}
+a .fi-mail{
+    color: black;
+}
+
+/***************************CONTACTBAR******************************/
+
+
+
+/****************************NAVBAR*********************************/
+
+nav{
+
+}
+.top-bar, .top-bar ul{
+    background-color: transparent;
+}
+a.logo{
+    padding: 0 0;
+    height: 100px;
+    width: 100px;
+    background-image: url("../images/logo.png");
+    max-width: 100%;
+    display: block;
+    position: absolute;
+    float: left;
+    top: 20px;
+}
+.navbar{
+    background-color: white;
+    height: 60px;
+    vertical-align: bottom;
+    /*box-shadow: 0px 1px 10px #5E5E5E;*/
+}
+#navigation a:hover
+{
+    opacity:0.36;
+}
+#navigation a{
+    text-decoration: none;
+    color:#262626;
+}
+.unselected{
+    text-decoration: underline;
+}
+.spanish{
+}
+#img_encabezado{
+    text-align: center;
+    align-content: center;
+}
+.img_slogan{
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    height: 422px;
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url("../images/encabezadoPagPrincipal.png");
+    background-position: center;
+}
+#navul li{
+    height: 16px;
+    border-right: solid;
+    border-width: 1px;
+}
+#navul #cursos,#navul #lenguage{
+    border-right: none;
+}
+#navul #lenguage{
+    height: 40px;
+}
+#navul li a{
+
+    margin: auto 0;
+    padding: 0 16px;
+    color: black;
+}
+.top-bar-right{
+    padding-right: 10px;
+}
+/*
+.floating{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 100;
+}
+*/
+/****************************NAVBAR*********************************/
+
+
+/****************************BLUELINE*********************************/
+#blueline{
+    background-color: #2245ba;
+    width: 100%;
+    height: 30px;
+    position: relative;
+    display: block;
+}
+
+/****************************BLUELINE*********************************/
+
+/****************************MAIN*********************************/
+.main{
+    font-family: 'Raleway', sans-serif;
+
+}
+#main-container{
+}
+#main-container-us{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/****************************MAIN*********************************/
+
+
+/************************SLOGAN*******************************/
+
+.slogan{
+    text-align: center;
+    color: #000000;
+
+
+}
+#separador{
+    align-content:center;
+    width: 640px;
+    height: 3px;
+    background-color: #000000;
+    margin:0 auto;
+    margin-bottom: 30px;
+}
+/************************SLOGAN*******************************/
+
+
+
+/************************INFORMACION*************************/
+
+div.item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+
+    /* The width of the container also implies margin around the images. */
+    width: 150px;
+    height: 100%;
+}
+
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+}
+#informacion{
+    align-items: inherit;
+    padding:0 40px;
+    color: white;
+}
+#divinformacion{
+    margin-bottom: 100px;
+    padding: 50px 0;
+    width: 100%;
+    background-color: #06204F;
+}
+/************************INFORMACION*************************/
+
+
+/************************MAIN ORBIT*************************/
+
+
+.main_orbit{
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 30px;
+    float: left;
+}
+#orbit_text{
+    width: 39%;
+    margin:0 auto;
+    text-align: center;
+    height: 430px;
+    display: flex;
+    align-items: center;
+}
+/************************MAIN ORBIT*************************/
+
+
+/************************CONTACTFORM*************************/
+.purpleline{
+    background-color: #1e1d45;
+    width: 100%;
+    height: 35px;
+}
+#best_solution{
+    text-align: center;
+    margin-bottom: 30px;
+    background-image: url("../images/Servicios/construction.jpg");
+}
+.blue-background{
+    height: 65px;
+    color: white;
+    background-color: #2b4785;
+}
+#contact{
+    clear: both;
+}
+.contactform{
+    float: left;
+    background-image:url("../images/fondo_blanco.png") ;
+    text-align: left;
+    align-content: center;
+    width: 270px;
+    margin-left: 10%;
+    margin-right: 100px;
+}
+#send_button{
+    text-align: center;
+    margin: auto;
+}
+.button{
+    background-color: white;
+    color: black;
+    border: solid;
+    border-width: 1px;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+
+}
+.gray-background{
+    color: white;
+    background-color: #524D4E;
+}
+#contact-message{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#cf_mensaje{
+    height: 120px;
+}
+/************************CONTACTFORM*************************/
+
+.lef-text{
+    float: left;
+    text-align: left;
+    width: 33.3333%;
+}
+.middle-text{
+    float: left;
+    text-align: left;
+    width: 33.3333%;
+}
+.right-text{
+    text-align: right;
+    float: left;
+    width: 33.3333%;
+}
+/************************FOOTER*************************/
+footer {
+
+    clear: both;
+    overflow: hidden;
+    background-color: #1B0833;
+}
+.footer-left{
+    color: white;
+    float: left;
+    width: 33.3333%;
+    text-align: left;
+    margin-top: .2em;
+}
+.copyright{
+    font-size: 12.4px;
+}
+.footer-middle{
+    margin-left: 50px;
+    color: white;
+    text-decoration-color: white;
+    float: left;
+    text-align: center;
+    width: 33.3333%;
+}
+.footer-right{
+    color: white;
+    padding-right: 20px;
+    text-align: right;
+    float: left;
+    width: 33.3333%;
+}
+.separate-icons{
+    display: inline-block;
+    padding: 0 15px;
+}
+/************************FOOTER*************************/
+/************************SERVICIOS*************************/
+/************************SERVICIOS*************************/
+/************************SERVICIOS*************************/
+/************************SERVICIOS*************************/
+/************************SERVICIOS*************************/
+/************************SERVICIOS*************************/
+/************************SERVICIOS*************************/
+
+
+/************************main*************************/
+
+.barra{
+    width: 100%;
+    margin-bottom: 60px;
+}
+.img_servicios{
+    width: 100%;
+    height: 184px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-image: url("../images/servicios/servicios.jpg");
+}
+
+/************************main*************************/
+
+
+/************************EVENT SERVICES*************************/
+.event_services{
+    width: 100%;
+    margin-bottom: 60px;
+    background-color: #ebfffe;
+    float: left;
+}
+.subtitle{
+    float: left;
+}
+
+.left-list{
+    float: left;
+    width: 33.3333%;
+}
+.left-list li{
+    margin-bottom: 20px;
+}
+.middle-list{
+    float: left;
+    width: 33.3333%;
+}
+.middle-list li{
+    margin-bottom: 20px;
+}
+.right-text{
+    float: left;
+    width: 33.3333%;
+}
+.right-list li{
+    margin-bottom: 20px;
+}
+li.last-element{
+    margin-bottom: 0;
+}
+.events_logo{
+    float: left;
+    height: 80px;
+    width: 80px;
+    background-image: url("../images/servicios/eventos.png");
+    max-width: 100%;
+    display: inline-block;
+}
+.subtitle-text{
+    float: left;
+    width: 45%;
+}
+#purple_line{
+    float: left;
+    background-color: #06204F;
+    width: 55%;
+    height: 20px;
+    margin-top: 1em;
+}
+/************************EVENT SERVICES*************************/
+
+
+/************************TECHNICAL SERVICES*************************/
+.technical_services{
+    width: 100%;
+    float: left;
+    margin-bottom: 60px;
+}
+#red_line{
+     float: left;
+     background-color: red;
+     width: 60%;
+     height: 20px;
+    margin-right: 10px;
+    margin-top: 1em;
+ }
+.technical_services_logo{
+    height: 80px;
+    width: 80px;
+    background-image: url("../images/servicios/servicios_Tecnicos.png");
+    max-width: 100%;
+    display: inline-block;
+    margin-left: 40px;
+}
+/************************TECHNICAL SERVICES*************************/
+
+/************************CONSTRUCTION SERVICES*************************/
+.construction_services{
+    color: white;
+    background-image:url("../images/servicios/construction.jpg") ;
+    width: 100%;
+    margin-bottom: 60px;
+    float: left;
+}
+#lowblue_line{
+    float: right;
+    background-color: #00d5d9;
+    width: 50%;
+    height: 20px;
+    margin-top: 1em;
+}
+.events_logo{
+    color: white;
+    height: 80px;
+    width: 80px;
+    background-image: url("../images/servicios/eventos.png");
+    max-width: 100%;
+    display: inline-block;
+    margin-left: 40px;
+}
+.subtitle-construction{
+    float: left;
+    width: 50%;
+}
+.construction_services_logo{
+    height: 80px;
+    width: 80px;
+    background-image: url("../images/servicios/servicios_construccion.png");
+    max-width: 100%;
+    display: inline-block;
+    margin-left: 40px;
+}
+.fifth{
+    margin: 0;
+    padding-left: 20px;
+    float: left;
+    width: 20%;
+}
+.fifth li{
+    margin-bottom: 20px;
+}
+/************************CONSTRUCTION SERVICES*************************/
+
+/************************PROFESSIONAL SERVICES*************************/
+
+.professional_services{
+    width: 100%;
+    float: left;
+    margin-bottom: 200px;
+}
+#black_line{
+    float: right;
+    background-color: GRAY;
+    width: 700px;
+    height: 20px;
+    vertical-align: middle;
+    margin-top: 1em;
+}
+.professional_services_logo{
+    height: 80px;
+    width: 80px;
+    background-image: url("../images/servicios/servicios_profesionales.jpg");
+    max-width: 100%;
+    display: inline-block;
+    margin-left: 40px;
+}
+.construction_services_logo{
+    height: 80px;
+    width: 80px;
+    background-image: url("../images/servicios/servicios_construccion.png");
+    max-width: 100%;
+    display: inline-block;
+    margin-left: 40px;
+}
+.fourth{
+    margin: 0;
+    padding-left: 20px;
+    float: left;
+    width: 25%;
+}
+/************************PRODUCTOS*************************/
+/************************PRODUCTOS*************************/
+/************************PRODUCTOS*************************/
+/************************PRODUCTOS*************************/
+/************************PRODUCTOS*************************/
+/************************PRODUCTOS*************************/
+/************************PRODUCTOS*************************/
+
+h2{
+    font-size: 44px;
+}
+.materials{
+    width: 100%;
+    float: left;
+    background-color:#f5f5f5 ;
+    margin-bottom: 40px;
+    font-size: 26px;
+}
+.materials_logo{
+    background-image: url("../images/productos/material-icon-2155446_960_720.png");
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    float: left;
+}
+
+
+
+.vine_line{
+    height: 20px;
+    width: 78.3%;
+    background-color: #cc4f4f;
+    margin-top: 1em;
+}
+.product_list{
+    float: left;
+    font-size: 44px;
+    list-style-type: none;
+    margin-right: -150px;
+
+}
+.product_list li{
+    margin-top: 50px;
+    margin-right: -150px;
+}
+.product_list li ul li{
+    font-size: 27px;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: -150px;
+}
+#uniform{
+    margin-top: 0;
+}
+.comput_logo{
+    background-image:url("../images/Productos/comput_logo.png");
+    width: 80px;
+    height: 80px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.stationery_logo{
+    background-image: url("../images/Productos/stationery_logo.png");
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+}
+.uniform_logo{
+    background-image: url("../images/Productos/uniform_logo.png");
+    display: inline-block;
+    width: 60px;
+    height: 49px;
+    margin:0 10px;
+    background-repeat: no-repeat;
+}
+.wrap-list{
+    margin-bottom: 50px;
+    float: left;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.div_product{
+    display: flex;
+    align-items: center;
+    height: 80px;
+
+ }
+.collage{
+    float: left;
+    width:1000px ;
+
+}
+.gray_list{
+    font-size: 44px;
+    clear: both;
+    background-color: #f5f5f5;
+    list-style-type: none;
+
+}
+.gray_list li{
+    margin-bottom: 30px;
+}
+.turism_logo{
+    background-image:url("../images/Productos/turism_logo.png") ;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+.trailer_logo{
+    background-image: url("../images/Productos/trailer_logo.png");
+    width: 60px;
+    height: 30px;
+    display: inline-block;
+}
+.spare_logo{
+    background-image: url("../images/Productos/spare_logo.png");
+    width: 70px;
+    height: 67px;
+    display: inline-block;
+}
+.font35{
+    font-size: 35px;
+}
+.font25{
+    font-size: 25px;
+}
+.contactus{
+    margin-top: 80px;
+    margin-left: 10%;
+    width: 80%;
+    float: left;
+    text-align: center;
+}
+.separator{
+    height: 3px;
+    width: 90%;
+    background-color: #9d9d9d;
+    margin: 0 auto;
+    clear: left;
+
+}
+.signal{
+    width: 50px;
+    margin: 30px auto;
+}
+.fi-social-facebook{
+    color: blue;
+    background-color: white;
+    width: 200px;
+}
+.center-mission{
+    display: flex;
+    float: left;
+    width: 100%;
+    align-items: center;
+}
+.mission{
+    float: left;
+    width: 50%;
+    padding: 0 12%;
+    text-align: center;
+}
+.biglogo{
+    max-width: 250px;
+    min-width: 75px;
+    margin: 0 10%;
+    width: 50%;
+    float: left;
+    margin: 0 10%;
+}
+
+.white_space{
+    float: left;
+    width: 250px;
+    margin: 0 15%;
+    height: 10px;
+    margin-top: 80px;
+}
+.vision_title{
+    color: #cc0029;
+    float: left;
+    width: 40%;
+    padding-left: 8%;
+    padding-right: 6%;
+    text-align: center;
+    margin-top: 80px;
+}
+.tools{
+    max-width: 250px;
+    min-width: 75px;
+    width: 50%;
+    float: left;
+    margin: 0 15%;
+}
+
+.vision{
+    display: inline-block;
+    margin: auto 0;
+    float: left;
+    width: 40%;
+    padding-left: 8%;
+    padding-right: 6%;
+    text-align: center;
+}
+.vision-background{
+    display: table-cell;
+    vertical-align: middle;
+    float: left;
+    background-color: #f7f7f7;
+}
+.float{
+    float: left;
+}
+.values-title{
+    color: #118a31;
+    float: left;
+    width: 40%;
+    text-align: center;
+    padding-left: 10%;
+    margin-top: 80px;
+}
+.values{
+    margin-top: 80px;
+    float: left;
+}
+.strategy-title{
+    color: #0088cc;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+}
+.strategy{
+    float: left;
+    width: 100%;
+    padding: 0 25%;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.center-image{
+    float: left;
+    position: relative;
+    left: 50%;
+}
+.image-centered{
+    width: 300px;
+    float: left;
+    position: relative;
+    left: -50%;
+}
