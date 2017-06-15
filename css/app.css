@@ -421,7 +421,7 @@ li.last-element{
     float: left;
     height: 80px;
     width: 80px;
-    background-image: url("../images/servicios/eventos.png");
+    background-image: url("../images/Servicios/eventos.png");
     max-width: 100%;
     display: inline-block;
 }
@@ -456,7 +456,7 @@ li.last-element{
 .technical_services_logo{
     height: 80px;
     width: 80px;
-    background-image: url("../images/servicios/servicios_Tecnicos.png");
+    background-image: url("../images/Servicios/servicios_Tecnicos.png");
     max-width: 100%;
     display: inline-block;
     margin-left: 40px;
@@ -466,7 +466,7 @@ li.last-element{
 /************************CONSTRUCTION SERVICES*************************/
 .construction_services{
     color: white;
-    background-image:url("../images/servicios/construction.jpg") ;
+    background-image: url("../images/Servicios/construction.jpg");
     width: 100%;
     margin-bottom: 60px;
     float: left;
@@ -482,7 +482,7 @@ li.last-element{
     color: white;
     height: 80px;
     width: 80px;
-    background-image: url("../images/servicios/eventos.png");
+    background-image: url("../images/Servicios/eventos.png");
     max-width: 100%;
     display: inline-block;
     margin-left: 40px;
@@ -494,7 +494,7 @@ li.last-element{
 .construction_services_logo{
     height: 80px;
     width: 80px;
-    background-image: url("../images/servicios/servicios_construccion.png");
+    background-image: url("../images/Servicios/servicios_construccion.png");
     max-width: 100%;
     display: inline-block;
     margin-left: 40px;
@@ -528,7 +528,7 @@ li.last-element{
 .professional_services_logo{
     height: 80px;
     width: 80px;
-    background-image: url("../images/servicios/servicios_profesionales.jpg");
+    background-image: url("../images/Servicios/servicios_profesionales.jpg");
     max-width: 100%;
     display: inline-block;
     margin-left: 40px;
@@ -536,7 +536,7 @@ li.last-element{
 .construction_services_logo{
     height: 80px;
     width: 80px;
-    background-image: url("../images/servicios/servicios_construccion.png");
+    background-image: url("../images/Servicios/servicios_construccion.png");
     max-width: 100%;
     display: inline-block;
     margin-left: 40px;
@@ -566,7 +566,7 @@ h2{
     font-size: 26px;
 }
 .materials_logo{
-    background-image: url("../images/productos/material-icon-2155446_960_720.png");
+    background-image: url("../images/Productos/material-icon-2155446_960_720.png");
     height: 80px;
     width: 80px;
     display: inline-block;
