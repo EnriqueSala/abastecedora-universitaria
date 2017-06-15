@@ -278,7 +278,11 @@ div.item {
 }
 #send_button{
     text-align: center;
-    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .button{
     background-color: white;
@@ -286,10 +290,15 @@ div.item {
     border: solid;
     border-width: 1px;
 }
+
 .button:hover{
     background-color: white;
     color: black;
 
+}
+.button:hover, .button:focus {
+    background-color: white;
+    color: black;
 }
 .gray-background{
     color: white;
