@@ -105,19 +105,9 @@ a.logo{
 }
 .spanish{
 }
-#img_encabezado{
-    text-align: center;
-    align-content: center;
-}
-.img_slogan{
-    text-align: center;
-    align-content: center;
+#encabezado{
     width: 100%;
-    height: 422px;
-    display: block;
-    background-repeat: no-repeat;
-    background-image: url("../images/encabezadoPagPrincipal.png");
-    background-position: center;
+    float: left;
 }
 #navul li{
     height: 16px;
@@ -272,9 +262,9 @@ div.item {
     background-image:url("../images/fondo_blanco.png") ;
     text-align: left;
     align-content: center;
-    width: 270px;
+    width: 20%;
     margin-left: 10%;
-    margin-right: 100px;
+    margin-right: 8%;
 }
 #send_button{
     text-align: center;
@@ -299,6 +289,9 @@ div.item {
 .button:hover, .button:focus {
     background-color: white;
     color: black;
+}
+#contact-image{
+    width: 58%;
 }
 .gray-background{
     color: white;
