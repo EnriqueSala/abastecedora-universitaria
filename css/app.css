@@ -23,10 +23,10 @@
     width: 38px;
     background-color: white;
     background-repeat: no-repeat;
-    background-image: url("../images/fb_small_logo.png");
+    background-image: url("/images/fb_small_logo.png");
 }
 #telefonologo{
-    background-image: url("../images/telefono_small_logo.png");
+    background-image: url("/images/telefono_small_logo.png");
     background-repeat: no-repeat;
     background-color: white;
     height: 38px;
@@ -79,7 +79,7 @@ a.logo{
     padding: 0 0;
     height: 100px;
     width: 100px;
-    background-image: url("../images/logo.png");
+    background-image: url("/images/logo.png");
     max-width: 100%;
     display: block;
     position: absolute;
@@ -247,7 +247,7 @@ div.item {
 #best_solution{
     text-align: center;
     margin-bottom: 30px;
-    background-image: url("../images/Servicios/construction.jpg");
+    background-image: url("/images/Servicios/construction.jpg");
 }
 .blue-background{
     height: 65px;
@@ -259,7 +259,7 @@ div.item {
 }
 .contactform{
     float: left;
-    background-image:url("../images/fondo_blanco.png") ;
+    background-image:url("/images/fondo_blanco.png") ;
     text-align: left;
     align-content: center;
     width: 20%;
@@ -378,7 +378,7 @@ footer {
     height: 184px;
     background-color: white;
     background-repeat: no-repeat;
-    background-image: url("../images/servicios/servicios.jpg");
+    background-image: url("/images/servicios/servicios.jpg");
 }
 
 /************************main*************************/
@@ -423,7 +423,7 @@ li.last-element{
     float: left;
     height: 80px;
     width: 80px;
-    background-image: url("../images/Servicios/eventos.png");
+    background-image: url("/images/Servicios/eventos.png");
     max-width: 100%;
     display: inline-block;
 }
@@ -458,7 +458,7 @@ li.last-element{
 .technical_services_logo{
     height: 80px;
     width: 80px;
-    background-image: url("../images/Servicios/servicios_Tecnicos.png");
+    background-image: url("/images/Servicios/servicios_Tecnicos.png");
     max-width: 100%;
     display: inline-block;
     margin-left: 40px;
@@ -468,7 +468,7 @@ li.last-element{
 /************************CONSTRUCTION SERVICES*************************/
 .construction_services{
     color: white;
-    background-image: url("../images/Servicios/construction.jpg");
+    background-image: url("/images/Servicios/construction.jpg");
     width: 100%;
     margin-bottom: 60px;
     float: left;
@@ -484,7 +484,7 @@ li.last-element{
     color: white;
     height: 80px;
     width: 80px;
-    background-image: url("../images/Servicios/eventos.png");
+    background-image: url("/images/Servicios/eventos.png");
     max-width: 100%;
     display: inline-block;
     margin-left: 40px;
@@ -496,7 +496,7 @@ li.last-element{
 .construction_services_logo{
     height: 80px;
     width: 80px;
-    background-image: url("../images/Servicios/servicios_construccion.png");
+    background-image: url("/images/Servicios/servicios_construccion.png");
     max-width: 100%;
     display: inline-block;
     margin-left: 40px;
@@ -530,7 +530,7 @@ li.last-element{
 .professional_services_logo{
     height: 80px;
     width: 80px;
-    background-image: url("../images/Servicios/servicios_profesionales.jpg");
+    background-image: url("/images/Servicios/servicios_profesionales.jpg");
     max-width: 100%;
     display: inline-block;
     margin-left: 40px;
@@ -538,7 +538,7 @@ li.last-element{
 .construction_services_logo{
     height: 80px;
     width: 80px;
-    background-image: url("../images/Servicios/servicios_construccion.png");
+    background-image: url("/images/Servicios/servicios_construccion.png");
     max-width: 100%;
     display: inline-block;
     margin-left: 40px;
@@ -568,7 +568,7 @@ h2{
     font-size: 26px;
 }
 .materials_logo{
-    background-image: url("../images/Productos/material-icon-2155446_960_720.png");
+    background-image: url("/images/Productos/material-icon-2155446_960_720.png");
     height: 80px;
     width: 80px;
     display: inline-block;
@@ -604,14 +604,14 @@ h2{
     margin-top: 0;
 }
 .comput_logo{
-    background-image:url("../images/Productos/comput_logo.png");
+    background-image:url("/images/Productos/comput_logo.png");
     width: 80px;
     height: 80px;
     display: table-cell;
     vertical-align: middle;
 }
 .stationery_logo{
-    background-image: url("../images/Productos/stationery_logo.png");
+    background-image: url("/images/Productos/stationery_logo.png");
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -620,7 +620,7 @@ h2{
     background-repeat: no-repeat;
 }
 .uniform_logo{
-    background-image: url("../images/Productos/uniform_logo.png");
+    background-image: url("/images/Productos/uniform_logo.png");
     display: inline-block;
     width: 60px;
     height: 49px;
@@ -656,19 +656,19 @@ h2{
     margin-bottom: 30px;
 }
 .turism_logo{
-    background-image:url("../images/Productos/turism_logo.png") ;
+    background-image:url("/images/Productos/turism_logo.png") ;
     height: 50px;
     width: 50px;
     display: inline-block;
 }
 .trailer_logo{
-    background-image: url("../images/Productos/trailer_logo.png");
+    background-image: url("/images/Productos/trailer_logo.png");
     width: 60px;
     height: 30px;
     display: inline-block;
 }
 .spare_logo{
-    background-image: url("../images/Productos/spare_logo.png");
+    background-image: url("/images/Productos/spare_logo.png");
     width: 70px;
     height: 67px;
     display: inline-block;
@@ -788,6 +788,7 @@ h2{
 .strategy{
     float: left;
     width: 100%;
+    min-width: 100%;
     padding: 0 25%;
     text-align: center;
     background-color: #f7f7f7;
