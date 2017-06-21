@@ -156,6 +156,9 @@ a.logo{
     font-family: 'Raleway', sans-serif;
 
 }
+.main h4, .main h3{
+    font-family: 'Raleway', sans-serif;
+}
 #main-container{
 }
 #main-container-us{
@@ -803,4 +806,32 @@ h2{
     float: left;
     position: relative;
     left: -50%;
+}
+.mail-sent{
+    text-align: center;
+    margin-top: 80px;
+}
+.mail-sent-image{
+    display: flex;
+    justify-content: center;
+}
+.fb-like{
+    background-image:url("../images/enviado/fb-like.png");
+    display: inline-block;
+    width: 50px;
+    height: 43px;
+}
+.follow-us{
+    text-align: center;
+    margin-top: 30px;
+}
+.fb-link{
+    text-align: center;
+
+}
+.visit-fb{
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
