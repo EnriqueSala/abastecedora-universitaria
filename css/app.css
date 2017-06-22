@@ -450,6 +450,10 @@ li.last-element{
     float: left;
     margin-bottom: 60px;
 }
+.technical-image{
+    float: right;
+    padding-right: 50px;
+}
 #red_line{
      float: left;
      background-color: red;
@@ -471,7 +475,7 @@ li.last-element{
 /************************CONSTRUCTION SERVICES*************************/
 .construction_services{
     color: white;
-    background-image: url("/images/Servicios/construction.jpg");
+    background-image: url("../images/Servicios/construction.jpg");
     width: 100%;
     margin-bottom: 60px;
     float: left;
@@ -520,7 +524,11 @@ li.last-element{
 .professional_services{
     width: 100%;
     float: left;
-    margin-bottom: 200px;
+}
+.professional-image{
+    display: block;
+    margin: 0 auto;
+
 }
 #black_line{
     float: right;
@@ -533,7 +541,7 @@ li.last-element{
 .professional_services_logo{
     height: 80px;
     width: 80px;
-    background-image: url("/images/Servicios/servicios_profesionales.jpg");
+    background-image: url("../images/Servicios/servicios_profesionales.jpg");
     max-width: 100%;
     display: inline-block;
     margin-left: 40px;
@@ -729,31 +737,37 @@ h2{
 
 .white_space{
     float: left;
-    width: 250px;
-    margin: 0 15%;
+    width: 550px;
+    margin: 0 5%;
     height: 10px;
     margin-top: 80px;
 }
 .vision_title{
-    color: #cc0029;
+    color: #e6a04a;
     float: left;
     width: 40%;
     padding-left: 8%;
     padding-right: 6%;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 200px;
 }
 .tools{
     max-width: 250px;
     min-width: 75px;
     width: 50%;
     float: left;
-    margin: 0 15%;
+    margin-left: 5%;
 }
-
+.vision-images{
+    width: 550px;
+    margin: 0 5%;
+    float: left;
+}
 .vision{
-    display: inline-block;
+    color: white;
+    background-color:#e6a04a;
     margin: auto 0;
+    margin-top: 5px;
     float: left;
     width: 40%;
     padding-left: 8%;
@@ -772,14 +786,17 @@ h2{
 .values-title{
     color: #118a31;
     float: left;
-    width: 40%;
+    width: 100%;
     text-align: center;
-    padding-left: 10%;
-    margin-top: 80px;
+    margin-top: 200px;
 }
 .values{
-    margin-top: 80px;
+    width: 100%;
+    text-align: center;
     float: left;
+}
+.values-text{
+    margin:0 10%;
 }
 .strategy-title{
     color: #0088cc;
