@@ -778,7 +778,6 @@ h2{
     display: table-cell;
     vertical-align: middle;
     float: left;
-    background-color: #f7f7f7;
 }
 .float{
     float: left;
@@ -811,7 +810,6 @@ h2{
     min-width: 100%;
     padding: 0 25%;
     text-align: center;
-    background-color: #f7f7f7;
 }
 .center-image{
     float: left;
