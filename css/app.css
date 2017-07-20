@@ -727,6 +727,9 @@ h2{
     padding: 0 5%;
     text-align: center;
 }
+h2{
+    font-size: 3.33vw;
+}
 .biglogo{
     max-width: 250px;
     min-width: 75px;
@@ -770,7 +773,7 @@ h2{
     float: left;
 }
 .vision{
-    font-size: 1.7vw;
+    font-size: 1.65vw;
     color: white;
     margin: auto 0;
     margin-top: 5px;
@@ -785,6 +788,7 @@ h2{
     margin-bottom: 30px;
     width: 100%;
     height: 300px;
+    display: inline-block;
     background-image: url("../images/Nosotros/vision.jpg");
     float: left;
 }
