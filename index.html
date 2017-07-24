@@ -115,7 +115,7 @@
           </li>
           <li>
               <div class="item">
-                  <img src="images/formación-icono300px.png"/>
+                  <img src="images/formacion-icono300px.png"/>
                   <span class="caption">Cursos de Capacitación.</span>
               </div>
           </li>
@@ -173,20 +173,16 @@
       <h1 class="blue-background" id="best_solution">Somos tu mejor opción</h1>
         <div class ="contactform">
             <h3 class="gray-background" id="contact-message">Contáctanos</h3>
-            <form  action="contact.php" method="post">
-                Nombre: <br>
-                <input type="text" name="username"><br>
-                Correo electrónico: <br>
-                <input type="email" name="email"><br>
-                Asunto: <br>
-                <textarea name="subject">  </textarea>
-                <label>
+            <form  action="/contact.php" method="post">
+                Nombre: <input type="text" name="username"><br>
+                E-mail: <input type="email" name="email"><br>
+                <p>Asunto</p><textarea name="subject" rows="3" cols="25"></textarea><br />
+                <p>
                     Mensaje:
-                </label><br>
-                <textarea name="message" id="cf_mensaje" placeholder=""></textarea><br>
+                </p><textarea name="message" id="cf_mensaje" placeholder=""></textarea></br>
                 <button id="send_button" type="submit" class="button" >
-                        <span aria-hidden="true"><i class="fi-mail"></i>  Enviar</span>
-                    </button>
+                    <span aria-hidden="true"><i class="fi-mail"></i>  Enviar</span>
+                </button>
             </form>
         </div>
   </div>

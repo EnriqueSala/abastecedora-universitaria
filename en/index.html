@@ -171,19 +171,15 @@
         <div class ="contactform">
             <h3 class="gray-background" id="contact-message">Contact us</h3>
             <form  action="/contact.php" method="post">
-                Name: <br>
-                <input type="text" name="username"><br>
-                E-mail: <br>
-                <input type="email" name="email"><br>
-                Subject: <br>
-                <textarea name="subject">  </textarea>
-                <label>
+                Name: <input type="text" name="username"><br>
+                E-mail: <input type="email" name="email"><br>
+                <p>Subject</p><textarea name="subject" rows="3" cols="25"></textarea><br />
+                <p>
                     Mesagge:
-                </label><br>
-                <textarea name="message" id="cf_mensaje" placeholder=""></textarea><br>
+                </p><textarea name="message" id="cf_mensaje" placeholder=""></textarea></br>
                 <button id="send_button" type="submit" class="button" >
-                        <span aria-hidden="true"><i class="fi-mail"></i>  Enviar</span>
-                    </button>
+                    <span aria-hidden="true"><i class="fi-mail"></i>  Enviar</span>
+                </button>
             </form>
         </div>
   </div>

@@ -1,11 +1,17 @@
 <?php
     $to = 'sala488@gmail.com';
-    $subject = "From: htmlspecialchars($_POST['username']) <htmlspecialchars($_POST['subject'])>\r\n";
-    $message = "Reply-To: htmlspecialchars($_POST['message']) \r\n";
-    $headers = "Content-type: text\r\n";
-    if(mail($to, $subject,, $message, $headers){
-        echo "<h1> Envío exitoso</h1>"
+    $subject = htmlspecialchars($_POST['subject']);
+    $name = htmlspecialchars($_POST['username']);
+    $message = htmlspecialchars($_POST['message']);
+    $formcontent = "From: $name \n Message: $message";
+    $email = htmlspecialchars($_POST['email']);
+    $headers = "From: $email \r\n";
+    $headers .= "Reply-To: $email \r\n";
+    $headers .= "Content-type: text/plain";
+    if(mail($to, $subject, $formcontent, $headers)){
+        header("Location: http://www.abastecedorauniversitaria.com/mail-sent.html"); /* Redirect browser */
+        exit();
     }else{
-        echo <h1>Something went wrong</h1>
+        echo "<h1>Something went wrong</h1>";
     }
-?>
+    ?>

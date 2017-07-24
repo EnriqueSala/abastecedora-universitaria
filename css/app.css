@@ -773,7 +773,7 @@ h2{
     float: left;
 }
 .vision{
-    font-size: 1.65vw;
+    font-size: 1.55vw;
     color: white;
     margin: auto 0;
     margin-top: 5px;
@@ -790,6 +790,8 @@ h2{
     height: 300px;
     display: inline-block;
     background-image: url("../images/Nosotros/vision.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
     float: left;
 }
 .white-25{
